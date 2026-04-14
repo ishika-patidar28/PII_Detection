@@ -6,13 +6,14 @@ def detect_pii(text):
         "PAN": r"\b[A-Z]{5}[0-9]{4}[A-Z]\b",
         "Phone": r"\b\d{10}\b",
         "Email": r"\S+@\S+",
+        "Credit Card": r"\b\d{4}\s\d{4}\s\d{4}\s\d{4}\b"
     }
 
-    results = {}
+    result = {}
 
     for key, pattern in patterns.items():
-        matches = re.findall(pattern, text)
-        if matches:
-            results[key] = matches
+        found = re.findall(pattern, text)
+        if found:
+            result[key] = found
 
-    return results
+    return result
