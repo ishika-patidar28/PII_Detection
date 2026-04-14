@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+}
+
+.main-content {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    border: none;
+    background: #35424a;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tab-btn.active {
+    background: #e8491d;
+}
+
+.upload-area {
+    border: 2px dashed #35424a;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.upload-icon {
+    font-size: 50px;
+}
+
+.file-info {
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #e8491d;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background: #35424a;
+    color: #ffffff;
+}
+
+.loading {
+    text-align: center;
+}
+
+.error-container {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.summary {
+    margin-bottom: 20px;
+}
+
+.summary-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.summary-card {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.text-preview {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.redacted {
+    background: #d4edda;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}

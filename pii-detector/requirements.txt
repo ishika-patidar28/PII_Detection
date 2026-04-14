@@ -1,0 +1,10 @@
+Flask
+Flask-Cors
+Flask-RESTful
+pandas
+numpy
+nltk
+regex
+python-dotenv
+pytest
+pytest-flask
